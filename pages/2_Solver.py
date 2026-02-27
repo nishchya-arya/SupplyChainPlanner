@@ -48,6 +48,25 @@ with st.sidebar:
 
     solve_btn = st.button("Solve", type="primary", use_container_width=True)
 
+    # Solver parameters (just below Solve button)
+    with st.expander("Solver Parameters"):
+        cost_weight = st.slider(
+            "Cost importance", 1, 10, 8,
+            help="How much to prioritize lower cost",
+        )
+        time_weight = st.slider(
+            "Speed importance", 1, 10, 5,
+            help="How much to prioritize faster delivery",
+        )
+        regional_weight = st.slider(
+            "Regional preference", 1, 10, 3,
+            help="How much to prioritize same-region manufacturing/storage",
+        )
+        min_batch = st.slider(
+            "Minimum batch size", 100, 2000, 500, 100,
+            help="Minimum units per active flow",
+        )
+
     st.divider()
 
     # Category
@@ -96,26 +115,6 @@ with st.sidebar:
         "Volume (units)", min_value=500, max_value=200000, value=10000, step=500,
     )
 
-    st.divider()
-
-    # Solver parameters
-    with st.expander("Solver Parameters"):
-        cost_weight = st.slider(
-            "Cost importance", 1, 10, 8,
-            help="How much to prioritize lower cost",
-        )
-        time_weight = st.slider(
-            "Speed importance", 1, 10, 5,
-            help="How much to prioritize faster delivery",
-        )
-        regional_weight = st.slider(
-            "Regional preference", 1, 10, 3,
-            help="How much to prioritize same-region manufacturing/storage",
-        )
-        min_batch = st.slider(
-            "Minimum batch size", 100, 2000, 500, 100,
-            help="Minimum units per active flow",
-        )
 
 # ── Main area ─────────────────────────────────────────────────────────────
 st.title("Supply Chain Solver")
@@ -248,15 +247,17 @@ if len(breakdown_rows) == 1:
         labels=cost_components,
         values=values,
         marker_colors=[cost_colors[c] for c in cost_components],
-        textinfo="label+percent",
+        textinfo="none",
         textposition="inside",
         hovertemplate="%{label}: $%{value:.2f} (%{percent})<extra></extra>",
         hole=0.3,
     )])
     fig_pie.update_layout(
-        height=350,
+        height=420,
         margin=dict(l=20, r=20, t=30, b=20),
-        showlegend=False,
+        showlegend=True,
+        legend=dict(orientation="h", yanchor="top", y=-0.05,
+                    xanchor="center", x=0.5),
     )
     st.plotly_chart(fig_pie, use_container_width=True)
 else:
@@ -274,7 +275,7 @@ else:
                 labels=cost_components,
                 values=values,
                 marker_colors=[cost_colors[c] for c in cost_components],
-                textinfo="label+percent" if n_flows <= 2 else "percent",
+                textinfo="none",
                 hovertemplate="%{label}: $%{value:.2f} (%{percent})<extra></extra>",
                 hole=0.3,
                 showlegend=(i == 0),
@@ -282,8 +283,8 @@ else:
             row=1, col=i + 1,
         )
     fig_pie.update_layout(
-        height=380,
-        margin=dict(l=20, r=20, t=40, b=20),
+        height=430,
+        margin=dict(l=20, r=20, t=50, b=20),
         legend=dict(orientation="h", yanchor="bottom", y=-0.1,
                     xanchor="center", x=0.5),
     )
