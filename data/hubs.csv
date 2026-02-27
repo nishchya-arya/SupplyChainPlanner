@@ -1,0 +1,15 @@
+hub_id,hub_name,city,country_code,region_id,monthly_throughput_capacity
+H_US_01,Houston Distribution Center,Houston,US,NAM,200000
+H_CA_01,Toronto Logistics Hub,Toronto,CA,NAM,120000
+H_MX_01,Mexico City Warehouse,Mexico City,MX,NAM,100000
+H_BR_01,Sao Paulo Distribution,Sao Paulo,BR,SAM,100000
+H_DE_01,Frankfurt Logistics Center,Frankfurt,DE,EUR,180000
+H_GB_01,London Distribution Hub,London,GB,EUR,150000
+H_AE_01,Dubai Logistics Hub,Dubai,AE,MEA,130000
+H_ZA_01,Johannesburg Distribution Center,Johannesburg,ZA,MEA,70000
+H_CN_01,Shanghai Mega Hub,Shanghai,CN,NEA,200000
+H_JP_01,Tokyo Distribution Center,Tokyo,JP,NEA,140000
+H_KR_01,Busan Port Logistics,Busan,KR,NEA,120000
+H_IN_01,Mumbai Logistics Center,Mumbai,IN,SEA,130000
+H_VN_01,HCMC Distribution Hub,Ho Chi Minh City,VN,SEA,80000
+H_AU_01,Sydney Logistics Center,Sydney,AU,SEA,90000

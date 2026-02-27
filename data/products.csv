@@ -1,0 +1,87 @@
+product_id,product_name,category_id,retail_price_tier,relative_demand_weight
+P001,Alpha Pro Max,CAT01,premium,1.5
+P002,Galaxy Ultra,CAT01,premium,1.4
+P003,Nova Standard,CAT01,mid,1.2
+P004,Pixel Lite,CAT01,mid,1.0
+P005,Redmi Value,CAT01,budget,1.8
+P006,Samba Phone,CAT01,budget,0.8
+P007,Desert Connect,CAT01,mid,0.6
+P008,Euro Slim,CAT01,mid,0.9
+P009,Pacific Phone,CAT01,mid,0.7
+P010,Liberty Mobile,CAT01,budget,1.0
+P011,Ultrabook Pro,CAT02,premium,1.3
+P012,Gaming Beast,CAT02,premium,1.4
+P013,Business Elite,CAT02,mid,1.1
+P014,Student Laptop,CAT02,budget,1.6
+P015,Creator Studio,CAT02,premium,0.8
+P016,Asia Slim Book,CAT02,mid,0.9
+P017,Sahara Notebook,CAT02,budget,0.5
+P018,Pampas Laptop,CAT02,budget,0.6
+P019,Euro WorkStation,CAT02,mid,0.7
+P020,Tab Pro 12,CAT03,premium,1.3
+P021,Tab Standard,CAT03,mid,1.4
+P022,Tab Lite,CAT03,budget,1.5
+P023,Tab Education,CAT03,budget,1.2
+P024,Tab Kids,CAT03,budget,0.9
+P025,Silk Pad,CAT03,mid,0.8
+P026,Arena Tablet,CAT03,mid,0.5
+P027,Nordic Slate,CAT03,premium,0.6
+P028,Chrono Elite,CAT04,premium,1.3
+P029,Fitness Band Pro,CAT04,mid,1.5
+P030,Sport Watch X,CAT04,mid,1.2
+P031,Health Tracker,CAT04,budget,1.6
+P032,Zen Watch,CAT04,premium,0.7
+P033,Outback Band,CAT04,budget,0.6
+P034,Gulf Timer,CAT04,premium,0.5
+P035,Rio Pulse,CAT04,budget,0.6
+P036,Maple Fit,CAT04,mid,0.8
+P037,SoundPods Pro,CAT05,premium,1.4
+P038,BassBuds,CAT05,mid,1.3
+P039,EcoBuds,CAT05,budget,1.7
+P040,ActivePods,CAT05,mid,1.0
+P041,Harmony Buds,CAT05,mid,0.9
+P042,Carnival Pods,CAT05,budget,0.7
+P043,Dune Audio,CAT05,mid,0.5
+P044,Studio Silence,CAT05,premium,0.8
+P045,Office Display 24,CAT06,budget,1.5
+P046,Gaming Display 27,CAT06,mid,1.3
+P047,Pro Display 32,CAT06,premium,1.1
+P048,Ultrawide 34,CAT06,premium,0.9
+P049,Curved Gaming 32,CAT06,mid,1.0
+P050,Budget Panel 22,CAT06,budget,1.4
+P051,K-Display,CAT06,mid,0.7
+P052,Studio Color,CAT06,premium,0.6
+P053,Portable Monitor,CAT06,mid,0.8
+P054,Boardroom Screen,CAT06,premium,0.5
+P055,Echo Mini,CAT07,budget,1.6
+P056,Home Hub,CAT07,mid,1.3
+P057,Sound Tower,CAT07,premium,0.9
+P058,Smart Orb,CAT07,mid,0.8
+P059,Voice Cube,CAT07,budget,1.0
+P060,Bamboo Speaker,CAT07,mid,0.5
+P061,Alto Speaker,CAT07,premium,0.6
+P062,Pocket Charge,CAT08,budget,1.7
+P063,Mega Power,CAT08,mid,1.3
+P064,Solar Charge,CAT08,premium,0.9
+P065,Rugged Power,CAT08,mid,0.8
+P066,Slim Charge,CAT08,budget,1.2
+P067,Tropic Power,CAT08,budget,0.7
+P068,Desert Reserve,CAT08,mid,0.5
+P069,Fast Charge Pro,CAT08,premium,0.7
+P070,Mech Warrior,CAT09,premium,1.2
+P071,Wireless Comfort,CAT09,mid,1.4
+P072,Gaming Clicker,CAT09,premium,1.1
+P073,Ergo Board,CAT09,mid,0.9
+P074,Compact Keys,CAT09,budget,1.3
+P075,Office Basic,CAT09,budget,1.5
+P076,Silent Type,CAT09,mid,0.7
+P077,Sakura Board,CAT09,mid,0.6
+P078,Flex Keyboard,CAT09,budget,0.8
+P079,ClearView HD,CAT10,budget,1.5
+P080,ProCam 4K,CAT10,premium,1.2
+P081,StreamCam,CAT10,mid,1.3
+P082,Conference Eye,CAT10,premium,0.9
+P083,Budget Cam,CAT10,budget,1.4
+P084,Night Vision Cam,CAT10,mid,0.7
+P085,Mini Cam,CAT10,budget,0.8
+P086,Boardroom Cam,CAT10,premium,0.5

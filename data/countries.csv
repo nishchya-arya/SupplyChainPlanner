@@ -1,0 +1,18 @@
+country_code,country_name,region_id
+US,United States,NAM
+CA,Canada,NAM
+MX,Mexico,NAM
+BR,Brazil,SAM
+AR,Argentina,SAM
+DE,Germany,EUR
+GB,United Kingdom,EUR
+FR,France,EUR
+AE,United Arab Emirates,MEA
+SA,Saudi Arabia,MEA
+ZA,South Africa,MEA
+CN,China,NEA
+JP,Japan,NEA
+KR,South Korea,NEA
+IN,India,SEA
+VN,Vietnam,SEA
+AU,Australia,SEA

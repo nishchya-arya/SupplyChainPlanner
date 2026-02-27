@@ -1,0 +1,11 @@
+category_id,category_name,base_manufacturing_cost_usd,representative_weight_kg
+CAT01,Smartphones,250,0.22
+CAT02,Laptops,580,1.8
+CAT03,Tablets,270,0.55
+CAT04,Smartwatches,125,0.07
+CAT05,Wireless Earbuds,55,0.07
+CAT06,Monitors,300,5.5
+CAT07,Smart Speakers,50,0.75
+CAT08,Power Banks,28,0.3
+CAT09,Keyboards,55,0.85
+CAT10,Webcams,100,0.4

@@ -1,0 +1,12 @@
+destination_country_code,restricted_country_code,restriction_type,reason
+US,CN,MADE_IN,US-China trade restrictions
+US,CN,ROUTED_THROUGH,US security compliance
+US,BR,MADE_IN,US-Brazil trade policy
+CA,CN,MADE_IN,Aligned with US-China policy
+CA,CN,ROUTED_THROUGH,Aligned with US security policy
+IN,CN,MADE_IN,India-China border tensions
+IN,CN,ROUTED_THROUGH,India security concerns
+CN,US,MADE_IN,China reciprocal restrictions
+CN,US,ROUTED_THROUGH,China reciprocal restrictions
+AU,CN,MADE_IN,Australia-China trade dispute
+JP,CN,ROUTED_THROUGH,Japan regional security policy

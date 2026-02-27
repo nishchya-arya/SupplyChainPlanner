@@ -1,0 +1,14 @@
+factory_id,factory_name,city,country_code,region_id,cost_multiplier
+F_US_01,Detroit Electronics,Detroit,US,NAM,1.0
+F_MX_01,Monterrey Assembly,Monterrey,MX,NAM,0.65
+F_BR_01,Sao Paulo Manufacturing,Sao Paulo,BR,SAM,0.7
+F_DE_01,Munich Precision Works,Munich,DE,EUR,1.05
+F_GB_01,Birmingham Tech Plant,Birmingham,GB,EUR,0.95
+F_AE_01,Dubai Industrial City,Dubai,AE,MEA,0.75
+F_CN_01,Shenzhen Electronics Hub,Shenzhen,CN,NEA,0.4
+F_CN_02,Guangzhou Tech Factory,Guangzhou,CN,NEA,0.42
+F_KR_01,Suwon Innovation Plant,Suwon,KR,NEA,0.72
+F_VN_01,Hanoi Assembly Plant,Hanoi,VN,SEA,0.38
+F_VN_02,HCMC Electronics,Ho Chi Minh City,VN,SEA,0.4
+F_IN_01,Chennai Manufacturing,Chennai,IN,SEA,0.45
+F_IN_02,Bangalore Tech Works,Bangalore,IN,SEA,0.5
